@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1cbcb;
+}
+.logo{
+    text-decoration: none;
+    float: left;
+    font-size: 35px;
+    color: #ff5353;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fab1b1;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links li a {
+    color: #f78888;
+    text-decoration: none;
+}
+
+.main {
+    background-image: url('shoping.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cb5151;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 38px;
+}
+
+.main p {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.about, .services, .contact {
+    padding: 60px 0;
+}
+
+.about p{
+    text-align: center;
+    color: #950101;
+    font-size: 22px;
+}
+
+.about h2, .services h2, .contact h2 {
+    text-align: center;
+    color: #ff5050;
+    font-size: 38px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.services li {
+    margin-bottom: 10px;
+    color: #b44848;
+    font-size: 20px;
+}
+
+.service-heading{
+    color: #ff5050;
+}
+
+.contact h3{
+    text-align: center;
+    color: #ec5050;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #2a2727;
+    color: #fff;
+    padding: 20px 0;
+}
